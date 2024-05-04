@@ -16,6 +16,7 @@ def html_tag(tag):
     return wrap_text
 
 print_h1 = html_tag('h1')
+print(print_h1.__name__)
 print_h1('Test Headline!')
 print_h1('Another Headline!')
 
