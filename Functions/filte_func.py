@@ -21,6 +21,12 @@ print(list(non_empty_strings))  # Output: ['hello', 'world', 'python']
 
 # 3 filtering nested lists
 nested_lists = [[1, 2, 3], [], [4, 5], [6], [], [7, 8, 9]]
-non_empty_lists = map(lambda x: len(x) > 0, nested_lists)
+non_empty_lists = filter(lambda x: len(x) > 0, nested_lists)
 
 print(list(non_empty_lists))  # Output: [[1, 2, 3], [4, 5], [6], [7, 8, 9]]
+
+# 4 filtering dict
+data = {'apple': 3, 'banana': 2, 'cherry': 5, 'date': 4}
+filtered_data = dict(filter(lambda item: item[1] > 3, data.items()))
+
+print(filtered_data)  # Output: {'apple': 3, 'cherry': 5, 'date': 4}

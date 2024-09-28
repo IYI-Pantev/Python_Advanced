@@ -17,8 +17,3 @@ for _ in range(n):
     quantity, quality = int(quantity), int(quality)
 
     print(category, item_name, quantity, quality)
-
-
-
-
-
