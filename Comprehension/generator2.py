@@ -14,3 +14,12 @@
 
 genNums = (x*x for x in range(1, 6))
 print(genNums)
+try:
+    print(next(genNums))
+    print(next(genNums))
+    print(next(genNums))
+    print(next(genNums))
+    print(next(genNums))
+    print(next(genNums))
+except StopIteration:
+    print('generator depleted.')

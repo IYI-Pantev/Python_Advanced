@@ -7,7 +7,6 @@ for char in text:
     char_dict[char] = char_dict.get(char, 0) + 1
 
 # another way for storing char occurrence
-
 char_frequency = {}
 for char in text:
     if char == ' ':
