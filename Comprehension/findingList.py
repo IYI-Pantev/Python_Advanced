@@ -3,3 +3,5 @@ if 'n' in letters:
     print(letters.index("n"))
 else:
     print('not in list')
+
+# .count('name')
