@@ -5,6 +5,9 @@ movies = [
     {"id": 2, "title": "Kindergarten Cop", "year": 1990},
 ]
 
+
+"""The json.dumps() function in Python is used to convert
+a Python object into a JSON formatted string"""
 data = json.dumps(movies)
 
 # print(data)
